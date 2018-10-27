@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es5", "es6", "dom"],
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "paths": {
+      "app/*": ["src/*"],
+      "@material-ui/core": ["./material-ui/src"],
+      "@material-ui/core/*": ["./material-ui/src/*"],
+      "@material-ui/lab": ["./material-ui-lab/src"],
+      "@material-ui/lab/*": ["./material-ui-lab/src/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
