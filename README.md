@@ -20,7 +20,7 @@ npm install -g webpack
 
 **Clone the project:**
 
-`git clone https://github.com/its404/ts-react-webpack.git`
+`git clone https://github.com/its404/mui-ts-react-todo.git`
 
 **Install dependencies:**
 
